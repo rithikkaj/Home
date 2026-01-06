@@ -1,12 +1,13 @@
 import React from 'react'
-import'./home.scss'
+import './home.scss'
+import Sidebar from '../../components/sidebar/Sidebar'
 
 const Home = () => {
   return (
     <div>
-      Welcome to Home Page
+      <Sidebar/>
     </div>
   )
-}
+} 
 
 export default Home
