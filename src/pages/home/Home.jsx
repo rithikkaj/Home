@@ -1,13 +1,31 @@
 import React from 'react'
 import './home.scss'
 import Sidebar from '../../components/sidebar/Sidebar'
+import Today from "./today/Today";
 
 const Home = () => {
   return (
     <div className='home'>
       <Sidebar/>
       <div className="homeContainer">
-        Home
+        <div className="upcoming-title">
+          <p>Upcoming</p>
+          <span>5</span>
+        </div>
+
+        <div className="home-top">
+          <Today />
+        </div>
+        <div className="home-bottom">
+
+        
+        <div className="home-left">
+
+        </div>
+        <div className="home-right">
+
+        </div>
+        </div>
       </div>
     </div>
   )

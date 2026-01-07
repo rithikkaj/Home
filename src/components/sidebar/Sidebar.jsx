@@ -71,6 +71,7 @@ const Sidebar = () => {
             </div>
         </div>
       </div>
+      <br />
       <div className="bottom">
         <ul>
             <li>
